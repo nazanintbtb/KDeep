@@ -149,13 +149,9 @@ python Training.py
 + Enter batch-size that use in trainin section
 
 **For RNA-24:**
-
 pyhton Training.py
-
 + Enter your direction of experience_test like (RNA_24/1/ALKBH5_Baltz2012_test)
-
 + Enter (text) to determine type of your data
-
 + Enter batch-size that use in trainin section
 
 # CONTACT INFO
