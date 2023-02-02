@@ -11,18 +11,12 @@ Based on the importance of DNA/RNA binding proteins in different cellular proces
 ROC & PR accuracy
 ![Screenshot (8)](https://user-images.githubusercontent.com/88847995/216260753-28ad0aec-eb4a-4f67-989e-f4351fee716e.png)
 
-Dnase ROC
-Method	Q1	Median	Q3	Average
-DanQ	0.8890	0.9023	0.9107	0.8982
-KDeep	0.8956	0.9134	0.9194	0.9065
-KDeep+	0.9100	0.9241	0.9309	0.9183
-	Dnase PR
-Method	Q1	Median	Q3	Average
-DanQ	0.3497	0.3810	0.4124	0.3789
-KDeep	0.3657	0.3994	0.4326	0.3960
-KDeep+	0.4006	0.4367	0.4728	0.4296
+Dnase ROC & PR accuracy
+![Screenshot (9)](https://user-images.githubusercontent.com/88847995/216263468-aa320632-2b25-43e5-ab6a-3824f1324c91.png)
 
+TF ROC & PR accuracy
 
+Histone ROC & PR accuracy
 
 # RNA
 
