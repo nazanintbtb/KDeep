@@ -26,5 +26,5 @@ Histone ROC & PR accuracy
 # USAGE
 python3.7,  tensorflow==2.8, cuda and cuDNN if you have GPU
 # DATASET
-download the training, validation and testing sets from DeepSEA (You can download the datasets from [here](http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz).)
+download the training, validation and testing sets from DeepSEA (You can download the datasets from [here](http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz))
 
