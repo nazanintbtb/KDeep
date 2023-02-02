@@ -33,10 +33,8 @@ python3.7,  tensorflow==2.8, cuda and cuDNN if you have GPU
 After you have extracted the contents of the tar.gz file, move the 3 .mat files into the KDeep/data/ or KDeep+/data/ folder.
 then run below command:**
 
- 1.python preprocess_FCGR.py.
- 
- 2.python KDeep.py | KDeep+.py.
- 
+ 1.python preprocess_FCGR.py. 
+ 2.python KDeep.py | KDeep+.py. 
  3.python test.py.
  
  
@@ -138,11 +136,7 @@ pyhton Training.py
 
 # CONTACT INFO
 Somayyeh Koohi
-
 Department of Computer Engineering
-
 Sharif University of Technology
-
 e-mail: koohi@sharfi.edu
-
 WWW: http://sharif.ir/~koohi/
