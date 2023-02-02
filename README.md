@@ -42,4 +42,4 @@ Just test without training model:
  2-If you want just test KDeep without training go to [colab link](https://colab.research.google.com/drive/1bdPTxxkB4Gd_R0GBSVfI_R57bUVTjomv?usp=sharing) then run test.py.
   or you can download KDeep.h5 from model of KDeep and install python3.7.3 with tensorflow==2.8 then run test.py .
 
- 3-If you want just test KDeep+ without training, download KDeepp.h5 from model of KDeep+ and install python3.7.3 with tensorflow==2.8 then run test.py .
+ 3-If you want just test KDeep+ without training go to [colab link](https://colab.research.google.com/drive/1f4AUlTIwnB_1ezZkbf8L7y0g8C6m_o3S?usp=sharing).if you want test on your system download KDeepp.h5 from model of KDeep+ and install python3.7.3 with tensorflow==2.8 then run test.py .
