@@ -12,11 +12,13 @@ ROC & PR accuracy
 ![Screenshot (8)](https://user-images.githubusercontent.com/88847995/216260753-28ad0aec-eb4a-4f67-989e-f4351fee716e.png)
 
 Dnase ROC & PR accuracy
-![Screenshot (9)](https://user-images.githubusercontent.com/88847995/216263468-aa320632-2b25-43e5-ab6a-3824f1324c91.png)
+![DNASE](https://user-images.githubusercontent.com/88847995/216276090-2e577602-c2b4-440c-958f-1132290603ae.png)
 
 TF ROC & PR accuracy
+![TF](https://user-images.githubusercontent.com/88847995/216276141-aa5344c2-4800-40dd-a05f-81b6229bde52.png)
 
 Histone ROC & PR accuracy
+![HISTONE](https://user-images.githubusercontent.com/88847995/216276193-c45e1b77-a8eb-4865-b1cd-92353661c740.png)
 
 # RNA
 
