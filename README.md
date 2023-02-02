@@ -47,6 +47,7 @@ Skip download data from deepsea link. You need just download test data from [her
 
 
  2-**Test trained model on colab:**
+ 
 If you want just test KDeep without training go to [colab link](https://colab.research.google.com/drive/1bdPTxxkB4Gd_R0GBSVfI_R57bUVTjomv?usp=sharing) 
 
 If you want just test KDeep+ without training go to [colab link](https://colab.research.google.com/drive/1f4AUlTIwnB_1ezZkbf8L7y0g8C6m_o3S?usp=sharing).
