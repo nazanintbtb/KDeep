@@ -26,7 +26,7 @@ Histone ROC & PR accuracy
 # USAGE
 python3.7,  tensorflow==2.8, cuda and cuDNN if you have GPU
 ###  DNA Dataset
-**download the training, validation and testing sets from DeepSEA (You can download the datasets from [here](http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz))
+**To train the model, download the training, validation and testing sets from DeepSEA dataset (You can download the datasets from [here](http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz))
 After you have extracted the contents of the tar.gz file, move the 3 .mat files into the KDeep/data/ or KDeep+/data/ folder.
 then run below command:**
 
@@ -37,10 +37,11 @@ then run below command:**
  3=python test.py.
  
  
-**Just test without training model:**
+**to test the KDeep or KDeep+ model without train model:**
 
- 1-If you want just test without train KDeep and KDeep+ model skip download data from deepsea link and
-  skip preprocess_FCGR section just extract testdata from tfrecords file then move to data folder.
+ 1-Skip download data from deepsea link and skip preprocess_FCGR section. You need just download test data from [here](https://drive.google.com/file/d/1y_KarPolOGFFzcdeoKOY9w_tg0NG3jYg/view?usp=sharing) and [here](https://drive.google.com/file/d/1fBN1fVCMKRmCLCO4vBiYB3OZYdjUV-ae/view?usp=sharing) then extract files and move to DNA\KDeep\data or DNA\KDeep+\data folder. and download The KDeep model that trained by myself from [here](https://drive.google.com/file/d/150I1vVEpqrPR_m6yZAyEwEGMAGfTzYZa/view?usp=sharing) or KDeep+ model
+ from [here](https://drive.google.com/file/d/1xUuL74NiVLXNDtsLI0HjB5lNTrZsgy7x/view?usp=sharing) and move to DNA\KDeep\model or DNA\KDeep+\model folder.
+
 
  2-If you want just test KDeep without training go to [colab link](https://colab.research.google.com/drive/1bdPTxxkB4Gd_R0GBSVfI_R57bUVTjomv?usp=sharing) then run test.py.
   or you can download KDeep.h5 from model of KDeep and install python3.7.3 with tensorflow==2.8 then run test.py .
