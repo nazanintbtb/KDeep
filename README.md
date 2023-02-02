@@ -136,7 +136,11 @@ pyhton Training.py
 
 # CONTACT INFO
 Somayyeh Koohi
+
 Department of Computer Engineering
+
 Sharif University of Technology
+
 e-mail: koohi@sharfi.edu
+
 WWW: http://sharif.ir/~koohi/
