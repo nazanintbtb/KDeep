@@ -40,17 +40,77 @@ then run below command:**
  
 ## To test the KDeep or KDeep+ model without train model
 
- 1-**Test trained model on your system:**
+ ### 1-Test trained model on your system:
  
 Skip download data from deepsea link. You need just download test data from [here](https://drive.google.com/file/d/1y_KarPolOGFFzcdeoKOY9w_tg0NG3jYg/view?usp=sharing) and [here](https://drive.google.com/file/d/1fBN1fVCMKRmCLCO4vBiYB3OZYdjUV-ae/view?usp=sharing) then extract files and move to DNA\KDeep\data or DNA\KDeep+\data folder. and download The KDeep model that trained by myself from [here](https://drive.google.com/file/d/150I1vVEpqrPR_m6yZAyEwEGMAGfTzYZa/view?usp=sharing) or KDeep+ model
  from [here](https://drive.google.com/file/d/1xUuL74NiVLXNDtsLI0HjB5lNTrZsgy7x/view?usp=sharing) and move to DNA\KDeep\model or DNA\KDeep+\model folder.
 
 
- 2-**Test trained model on colab:**
+### 2-Test trained model on colab:
  
-If you want just test KDeep without training go to [colab link](https://colab.research.google.com/drive/1bdPTxxkB4Gd_R0GBSVfI_R57bUVTjomv?usp=sharing) 
+If you want just test KDeep without training go to **[colab link](https://colab.research.google.com/drive/1bdPTxxkB4Gd_R0GBSVfI_R57bUVTjomv?usp=sharing)**
 
 If you want just test KDeep+ without training go to [colab link](https://colab.research.google.com/drive/1f4AUlTIwnB_1ezZkbf8L7y0g8C6m_o3S?usp=sharing).
  
  ##  RNA Dataset
+ RNA Datasets are in RNA_31 AND RNA_24 folders.
+ You need to check colab link to run codes and learn instruction step by step.
+ https://colab.research.google.com/drive/1mLV1jp-VIQSu99h51O3mKf5_gExoowrc?usp=sharing
  
+**Pre_process section**
+
+For RNA-31:
+
+Enter your direction of experience_train like (RNA_31/train/1/sequences.fa)
+Enter your direction of experience_test like (RNA_31/test/1/sequences.fa)
+Enter (fasta) to determine type of your data
+For RNA-24:
+
+Enter your direction of experience_train like (RNA_24/1/ALKBH5_Baltz2012_train)
+Enter your direction of experience_test like (RNA_24/1/ALKBH5_Baltz2012_test)
+Enter (text) to determine type of your data
+
+**Training section**
+
+For RNA-31:
+
+Enter (420) to determine appropriate seed for learning
+Enter train number =(30000)
+Enter valid number = (10000)
+Enter batch_size = (300)
+Enter 101 to determine sequences lenght of RNA-31
+For RNA-23:
+
+Enter (0) to determine appropriate seed for learning
+Enter train number =(Check output of preprocess section) for experience one 'ALKBH5_Baltz2012' training number is 2410
+Enter valid number = (Check output of preprocess section). for experience one 'ALKBH5_Baltz2012' valid number is 266
+Enter batch_size like (300)
+Enter 375 to determine sequences lenght of RNA-24
+Point=If the model fails to train, you should reduce the batch number
+
+**Test section**
+
+For RNA-31:
+
+Enter your direction of experience_test like (RNA_31/test/1/sequences.fa)
+Enter (fasta) to determine type of your data
+Enter (101) to determine sequences lenght of RNA-31
+For RNA-24:
+
+Enter your direction of experience_test like (RNA_24/1/ALKBH5_Baltz2012_test)
+Enter (text) to determine type of your data
+Enter (375) to determine sequences lenght of RNA-24
+
+
+**Extracted motif Section**
+
+For RNA-31:
+
+Enter your direction of experience_test like (RNA_31/test/1/sequences.fa)
+Enter (fasta) to determine type of your data
+Enter batch-size that use in trainin section
+For RNA-24:
+
+Enter your direction of experience_test like (RNA_24/1/ALKBH5_Baltz2012_test)
+Enter (text) to determine type of your data
+Enter batch-size that use in trainin section
