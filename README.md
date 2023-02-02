@@ -33,22 +33,22 @@ python3.7,  tensorflow==2.8, cuda and cuDNN if you have GPU
 After you have extracted the contents of the tar.gz file, move the 3 .mat files into the KDeep/data/ or KDeep+/data/ folder.
 then run below command:**
 
- 1-python preprocess_FCGR.py.
+ 1.python preprocess_FCGR.py.
  
- 2-python KDeep.py | KDeep+.py.
+ 2.python KDeep.py | KDeep+.py.
  
- 3=python test.py.
+ 3.python test.py.
  
  
 ### To test the KDeep or KDeep+ model without train model
 
- #### 1-Test trained model on your system:
+ #### 1.Test trained model on your system:
  
 Skip download data from deepsea link. You need just download test data from [here](https://drive.google.com/file/d/1y_KarPolOGFFzcdeoKOY9w_tg0NG3jYg/view?usp=sharing) and [here](https://drive.google.com/file/d/1fBN1fVCMKRmCLCO4vBiYB3OZYdjUV-ae/view?usp=sharing) then extract files and move to DNA\KDeep\data or DNA\KDeep+\data folder. and download The KDeep model that trained by myself from [here](https://drive.google.com/file/d/150I1vVEpqrPR_m6yZAyEwEGMAGfTzYZa/view?usp=sharing) or KDeep+ model
  from [here](https://drive.google.com/file/d/1xUuL74NiVLXNDtsLI0HjB5lNTrZsgy7x/view?usp=sharing) and move to DNA\KDeep\model or DNA\KDeep+\model folder.
 
 
-#### 2-Test trained model on colab:
+#### 2.Test trained model on colab:
  
 If you want just test KDeep without training go to **[colab](https://colab.research.google.com/drive/1bdPTxxkB4Gd_R0GBSVfI_R57bUVTjomv?usp=sharing)**.
 
