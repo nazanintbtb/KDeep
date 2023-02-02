@@ -24,9 +24,9 @@ Histone ROC & PR accuracy
 ![RNAPIC](https://user-images.githubusercontent.com/88847995/216283950-3f772f10-880d-4363-a391-9e4040c3cb1e.png)
 
 # USAGE
-### Need package
+## Need package
 python3.7,  tensorflow==2.8, cuda and cuDNN if you have GPU
-###  Train model by DNA Dataset and run instruction
+##  Train model by DNA Dataset and run instruction
 **To train the model, download the training, validation and testing sets from DeepSEA dataset (You can download the datasets from [here](http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz))
 After you have extracted the contents of the tar.gz file, move the 3 .mat files into the KDeep/data/ or KDeep+/data/ folder.
 then run below command:**
@@ -38,7 +38,7 @@ then run below command:**
  3=python test.py.
  
  
-### To test the KDeep or KDeep+ model without train model
+## To test the KDeep or KDeep+ model without train model
 
  1-**Test trained model on your system:**
  
@@ -52,5 +52,5 @@ If you want just test KDeep without training go to [colab link](https://colab.re
 
 If you want just test KDeep+ without training go to [colab link](https://colab.research.google.com/drive/1f4AUlTIwnB_1ezZkbf8L7y0g8C6m_o3S?usp=sharing).
  
- ###  RNA Dataset
+ ##  RNA Dataset
  
