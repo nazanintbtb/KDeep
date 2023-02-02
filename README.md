@@ -25,7 +25,7 @@ Histone ROC & PR accuracy
 
 # USAGE
 python3.7,  tensorflow==2.8, cuda and cuDNN if you have GPU
-! DNA Dataset
+## DNA Dataset
 download the training, validation and testing sets from DeepSEA (You can download the datasets from [here](http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz))
 After you have extracted the contents of the tar.gz file, move the 3 .mat files into the KDeep/data/ or KDeep+/data/ folder.
 then run below command:
