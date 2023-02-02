@@ -64,60 +64,103 @@ If you want just test KDeep+ without training go to **[colab](https://colab.rese
 ###  Pre_process section 
 
 **For RNA-31:**
+
 python PreProcess.py
+
 Enter your direction of experience_train like (RNA_31/train/1/sequences.fa)
+
 Enter your direction of experience_test like (RNA_31/test/1/sequences.fa)
+
 Enter (fasta) to determine type of your data
 
 **For RNA-24:**
+
 python PreProcess.py 
+
 Enter your direction of experience_train like (RNA_24/1/ALKBH5_Baltz2012_train)
+
 Enter your direction of experience_test like (RNA_24/1/ALKBH5_Baltz2012_test)
+
 Enter (text) to determine type of your data
 
 ### Training section 
 
 **For RNA-31:**
 pythin Training.py
+
 Enter (420) to determine appropriate seed for learning
+
 Enter train number =(30000)
+
 Enter valid number = (10000)
+
 Enter batch_size = (300)
+
 Enter 101 to determine sequences lenght of RNA-31
 
 **For RNA-24:**
 pythin Training.py
+
 Enter (0) to determine appropriate seed for learning
+
 Enter train number =(Check output of preprocess section) for experience one 'ALKBH5_Baltz2012' training number is 2410
+
 Enter valid number = (Check output of preprocess section). for experience one 'ALKBH5_Baltz2012' valid number is 266
+
 Enter batch_size like (300)
+
 Enter 375 to determine sequences lenght of RNA-24
+
 Point=If the model fails to train, you should reduce the batch number
 
 ### **Test section** 
 
 **For RNA-31:**
+
 python Test.py
+
 Enter your direction of experience_test like (RNA_31/test/1/sequences.fa)
+
 Enter (fasta) to determine type of your data
+
 Enter (101) to determine sequences lenght of RNA-31
 
 **For RNA-24:**
+
 python Test.py
+
 Enter your direction of experience_test like (RNA_24/1/ALKBH5_Baltz2012_test)
+
 Enter (text) to determine type of your data
+
 Enter (375) to determine sequences lenght of RNA-24
 
 
 ### **Extracted motif Section** 
 
 **For RNA-31:**
+
 python Training.py
+
 Enter your direction of experience_test like (RNA_31/test/1/sequences.fa)
+
 Enter (fasta) to determine type of your data
+
 Enter batch-size that use in trainin section
+
 **For RNA-24:**
+
 pyhton Training.py
+
 Enter your direction of experience_test like (RNA_24/1/ALKBH5_Baltz2012_test)
+
 Enter (text) to determine type of your data
+
 Enter batch-size that use in trainin section
+
+# CONTACT INFO
+Somayyeh Koohi
+Department of Computer Engineering
+Sharif University of Technology
+e-mail: koohi@sharfi.edu
+WWW: http://sharif.ir/~koohi/
